@@ -1,18 +1,16 @@
 {
-    "version"           :   "<%= answers.version %>",
-    "license"           :   "<%= answers.license %>",
-    "name"              :   "<%= answers.name %>",
-    "shortDescription"  :   "<%= answers.shortDescription %>",
-    "namespace"         :   "<%= answers.name %>",
-    "author"            :   "<%= answers.author %>",
-    "price"             :   <%= answers.price %>,
-    "categories"        :   [<%= answers.categories %>],
-    "type"              :   "<%= answers.type %>",
-    "serviceProvider"   :   "<%= answers.name %>\\Providers\\<%= answers.name %>ServiceProvider",
+    "version"           :   "0.0",
+    "license"           :   "none",
+    "name"              :   "theme_test",
+    "shortDescription"  :   "test theme",
+    "namespace"         :   "theme_test",
+    "author"            :   "Stefan Wackrow",
+    "type"              :   "template",
+    "serviceProvider"   :   "theme_test\Providers\theme_testServiceProvider",
     "dataProviders"     :
     [
         {
-            "key"           :"<%= answers.name %>\\Containers\\<%= answers.name %>Container",
+            "key"           :"theme_test\Containers\theme_testContainer",
             "name"          :"Generated plugin container",
             "description"   :"Add changes to the CSS file"
         }

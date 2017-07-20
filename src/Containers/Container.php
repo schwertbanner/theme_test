@@ -1,13 +1,13 @@
 <?php
 
-namespace <%= name %>\Containers;
+namespace theme_test\Containers;
 
 use Plenty\Plugin\Templates\Twig;
 
-class <%= name %>Container
+class container
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('<%= name %>::Theme');
+        return $twig->render(theme_test::Theme);
     }
 }
